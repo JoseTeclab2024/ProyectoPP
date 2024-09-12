@@ -1,0 +1,35 @@
+
+header {
+    background-color: #22d4ae; 
+    color: white; 
+    padding: 20px; 
+    text-align: right; 
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav {
+    margin-top: 10px; 
+}
+
+header nav ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+header nav ul li {
+    display: inline; 
+    margin-right: 20px; 
+}
+
+header nav ul li a {
+    color: rgb(212, 36, 95); 
+    text-decoration: none; 
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
