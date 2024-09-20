@@ -21,7 +21,49 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+
 }
-.compra{ height: auto;width: 20%;
+/*.compra{ height: auto;width: 20%;
     color: blue;background-color: blanchedalmond;
+
+ {
+    font-family: Arial, sans-serif;
+}*/
+
+.carousel {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-images img {
+    width: 50%;
+    flex: 0 0 50%;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
 }

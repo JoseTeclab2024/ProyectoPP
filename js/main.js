@@ -1,4 +1,4 @@
-let slideIndex = 0;
+/*let slideIndex = 0;
 
 function showSlide(index) {
     const slides = document.querySelectorAll('.carousel-images img');
@@ -14,4 +14,29 @@ function moveSlide(step) {
 }
 
 
-showSlide(slideIndex);
+showSlide(slideIndex);*/
+document.addEventListener('DOMContentLoaded', () => {
+    const carouselImages = document.querySelector('.carousel-images');
+    const images = Array.from(carouselImages.querySelectorAll('img'));
+    const totalImages = images.length;
+    let currentIndex = 0;
+
+    function showImage(index) {
+        const offset = -index * 100;
+        carouselImages.style.transform = `translateX(${offset}%)`;
+    }
+
+    function nextImage() {
+        currentIndex = (currentIndex + 1) % totalImages;
+        showImage(currentIndex);
+    }
+
+    function prevImage() {
+        currentIndex = (currentIndex - 1 + totalImages) % totalImages;
+        showImage(currentIndex);
+    }
+
+    document.querySelector('.next').addEventListener('click', nextImage);
+    document.querySelector('.prev').addEventListener('click', prevImage);
+
+});
