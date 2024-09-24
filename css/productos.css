@@ -1,9 +1,9 @@
 
 
-body {
+html,body {
     margin: 0;
     padding: 0;
-    height: 100%;
+    height: auto;
     overflow: hidden; 
 }
 
@@ -20,4 +20,39 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+
+
+
+
+
+.card{
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:space-between;
+
+    width:200px;
+    box-sizing:initial;
+
+    border: 1px solid lightgray;
+
+    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+
+    border-radius:15px;
+
+    font-family: sans-serif;
+
+}
+.orden{
+    display: flex;
+    align-items: center;
+}
+.nombre{
+    text-align: center;
+    color: rgb(76, 0, 255);
+    background-color:rgb(241, 236, 236) ;
 }
