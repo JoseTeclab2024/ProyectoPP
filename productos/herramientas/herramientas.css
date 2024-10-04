@@ -4,7 +4,7 @@ html,body {
     padding: 0; /* Elimina cualquier padding predeterminado */
     display: flex;
     flex-direction: column;
-    background-image: url('../img/fondo.jpg');
+    background-image: url('/css/img/fondo.jpg');
     background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     background-position: center; /* Centra la imagen de fondo */

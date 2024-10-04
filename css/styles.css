@@ -46,6 +46,7 @@ html, body {
     z-index: 1000; /* Asegura que el navbar esté por encima de otros elementos */
 }
 
+
 .logo{
     height: 60px;
     width: 80px;
@@ -78,6 +79,11 @@ html, body {
     width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
     border-top-left-radius: 8px; /* Bordes redondeados en la parte superior de la imagen */
     border-top-right-radius: 8px; /* Bordes redondeados en la parte superior de la imagen */
+}
+.parrafo{
+    size:0cap;
+    color: yellow;
+;
 }
 
 /* Estilo del footer */
