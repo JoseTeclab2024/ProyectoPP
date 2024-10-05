@@ -18,7 +18,7 @@ html,body {
     margin: 5px; /* Espacio entre las cards */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para efecto de elevación */
     border-radius: 8px; /* Bordes redondeados */
-    background-color: white; /* Fondo blanco de las cards */
+    background-color: rgb(218, 55, 55); /* Fondo blanco de las cards */
     flex: 1 1 auto; /* Permite que las cards se redimensionen de forma responsive */
 }
 
