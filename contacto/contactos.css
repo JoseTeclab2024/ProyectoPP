@@ -1,3 +1,20 @@
+
+
+.backgroud-container {
+   height: 850px;
+   width: 100%; 
+   background-image: url('../css/img/fondo.jpg');
+   background-size: cover;
+   background-position: center; 
+   background-repeat: no-repeat; 
+   color: rgb(148, 25, 25); 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
@@ -8,11 +25,11 @@ body {
 }
 
 form {
-    padding: 50px 55px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 90px 55px;
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); */
     border-radius: 20px;
     text-align: center;
-    width: 340px;
+    width: 370px;
 
 }
 

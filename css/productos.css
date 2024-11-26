@@ -1,4 +1,17 @@
 html,body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    overflow: hidden; 
+}
+.backgroud-container {
+    height: 500px;
+    width: 100%; 
+    background-image: url('./img/fondo.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: rgb(148, 25, 25); 
     height: 100%; /* Asegura que el body y html ocupen todo el alto de la ventana */
     margin: 0; /* Elimina cualquier margen predeterminado */
     padding: 0; /* Elimina cualquier padding predeterminado */
@@ -7,10 +20,25 @@ html,body {
     align-items: center;
     justify-content: center;
     text-align: center;
+    background-image: url('../img/fondo.jpg');
+    background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen de fondo */
+    background-attachment: fixed; /* Hace que la imagen de fondo permanezca fija */
+    width: 100%; /* Asegura que el ancho del body y html cubra todo el viewport */
+    overflow-x: hidden; /* Evita el scroll horizontal */
+    color: rgb(148, 25, 25);    
+}
+
+/* Contenedor principal */
+.container {
+    margin-top: 80px; /* Ajusta el margen superior para que las cards no se escondan detrás del navbar */
+    text-align: center;
     flex: 1;
     padding: 20px; /* Añade padding para dar espacio en los laterales */
     display: flex;   
 }
+
 
 /* Estilo de las cards */
 .card {
@@ -18,7 +46,7 @@ html,body {
     margin: 5px; /* Espacio entre las cards */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para efecto de elevación */
     border-radius: 8px; /* Bordes redondeados */
-    background-color: rgb(247, 243, 243); /* Fondo blanco de las cards */
+    background-color: white; /* Fondo blanco de las cards */
     flex: 1 1 auto; /* Permite que las cards se redimensionen de forma responsive */
 }
 

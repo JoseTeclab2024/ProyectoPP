@@ -1,0 +1,109 @@
+[
+  {
+    "id": 1,
+    "nombre": "Martillo",
+    "precio": 150.50,
+    "cantidad": 25
+  },
+  {
+    "id": 2,
+    "nombre": "Maza",
+    "precio": 75.00,
+    "cantidad": 50
+  },
+  {
+    "id": 3,
+    "nombre": "Cortahierro",
+    "precio": 300.00,
+    "cantidad": 12
+  },
+  {
+    "id": 4,
+    "nombre": "Cuchara de albañil",
+    "precio": 1250.00,
+    "cantidad": 8
+  },
+  {
+    "id": 5,
+    "nombre": "Balde",
+    "precio": 60.00,
+    "cantidad": 100
+  },
+  {
+    "id": 6,
+    "nombre": "Chocla",
+    "precio": 120.00,
+    "cantidad": 30
+  },
+  {
+    "id": 7,
+    "nombre": "Pico",
+    "precio": 45.75,
+    "cantidad": 40
+  },
+  {
+    "id": 8,
+    "nombre": "Pala Ancha",
+    "precio": 180.00,
+    "cantidad": 15
+  },
+  {
+    "id": 9,
+    "nombre": "Pala de Punta",
+    "precio": 200.00,
+    "cantidad": 20
+  },
+  {
+    "id": 10,
+    "nombre": "Rastrillo 14 Dientes",
+    "precio": 50.00,
+    "cantidad": 60
+  }
+    {
+    "id": 11,
+    "nombre": "Rastrillo",
+    "precio": 50.00,
+    "cantidad": 60
+  }
+    {
+    "id": 12,
+    "nombre": "Azada",
+    "precio": 50.00,
+    "cantidad": 60
+  }
+    {
+    "id": 13,
+    "nombre": "Tarugo Hueco",
+    "precio": 50.00,
+    "cantidad": 60
+  }
+    {
+    "id": 14,
+    "nombre": "Tarugo con tope",
+    "precio": 50.00,
+    "cantidad": 60
+  }
+    {
+    "id": 15,
+    "nombre": "Autoperforante punta aguja",
+    "precio": 50.00,
+    "cantidad": 60
+  }
+    {
+    "id": 16,
+    "nombre": "Autoperforante punta mecha",
+    "precio": 50.00,
+    "cantidad": 60
+  }
+    {
+    "id": 17,
+    "nombre": "Arandela Plana",
+    "precio": 50.00,
+    "cantidad": 60
+  }    {
+    "id": 18,
+    "nombre": "Arandela Grower",
+    "precio": 50.00,
+    "cantidad": 60
+  }
+]
