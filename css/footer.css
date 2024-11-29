@@ -4,6 +4,10 @@ footer {
     color: white; 
     padding: 20px; 
     text-align: right; 
+    position: fixed; /* Fija el footer en la parte inferior */
+    bottom: 0; /* Posiciona el footer en la parte inferior */
+    z-index: 1000; /* Asegura que el footer esté por encima de otros elementos */
+    width: 100%; /* Asegura que el footer ocupe todo el ancho */
 }
 
 footer h1 {

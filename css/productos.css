@@ -51,7 +51,7 @@ html,body {
 }
 
 /* Estilo de las imágenes de las cards */
-.card-img-top {
+.card-img {
     height: 200px; /* Ajusta la altura según tus necesidades */
     object-fit: cover; /* Ajusta la imagen para cubrir el contenedor sin distorsión */
     width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
